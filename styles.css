@@ -81,9 +81,15 @@ body{
 }
 .summary p{
     margin-left: 25px;
+    
 }
 .continue{
     color: white;
-    background-color: #303B59;
+    background: linear-gradient(13deg,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
     text-align: center;
+}
+
+.imgallign{
+    margin-top: 15px;
+    margin-left: 10px;
 }
