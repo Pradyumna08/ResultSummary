@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+}
+.box{
+    
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+}
+
+.total{
+    display: flex;
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: white;
+    
+    box-shadow: 0px 0px 15px hsl(241, 100%, 89%) ;
+    color: white;
+    
+    font-family: Hanken Grotesk;
+    
+    
+}
+.result{
+
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(13deg,hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    border-radius: 20px;
+
+
+}
+.toptext
+{
+       top: 25px;
+}
+.circle{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 75px;
+    margin-top: 9px;
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background: linear-gradient(0deg,hsla(241, 72%, 46%, 0),hsla(256, 72%, 46%, 1));
+   
+}
+.scoretext{
+   margin :0px;
+    font-family: Hanken Grotesk;
+    font-size: 50px;
+    font-weight: 800;
+}
+.great{
+    font-size: 25px;
+    font-weight: 700;
+}
+.summary{
+
+    font-family: Hanken Grotesk;
+    color: black;
+    font-size: 25px;
+    height: 400px;
+    width: 300px;
+    font-weight: 800;
+}
+.summary div{
+    
+    font-size: 18px;
+    margin-left: 20px;
+    height: 50px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.summary p{
+    margin-left: 25px;
+}
+.continue{
+    color: white;
+    background-color: #303B59;
+    text-align: center;
+}
